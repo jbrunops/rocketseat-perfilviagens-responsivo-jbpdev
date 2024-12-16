@@ -1,9 +1,13 @@
 footer {
   display: flex;
+  flex-wrap: wrap;
   padding-block: 1.5rem;
   gap: 1.5rem;
+  justify-content: center;
 }
 
 footer span:nth-child(1) {
   margin-right: auto;
+  width: 100%;
+  text-align: center;
 }

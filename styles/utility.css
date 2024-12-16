@@ -1,23 +1,19 @@
 .pd-32px {
-  padding-block: var(--pd-32px);
+  padding-block: 2rem;
 }
-
 .pd-24px {
-  padding-block: var(--pd-24px);
+  padding-block: 1.5rem;
 }
-
 .pd-25px {
-  padding-block: var(--pd-25px);
+  padding-block: 1.59rem;
 }
-
 .px-lg {
   padding-inline: var(--px-lg);
 }
 
 .container {
-  --max-width: 360px;
+  --max-width: 22.5rem;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
-  /* border: solid; */
   margin-inline: auto;
 }
 
@@ -35,7 +31,7 @@
 }
 
 /* Para telas grandes */
-@media (width >= 80rem) {
+@media (min-width: 80rem) {
   .container {
     --max-width: 80rem;
   }
