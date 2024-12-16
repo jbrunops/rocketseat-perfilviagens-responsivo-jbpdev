@@ -1,0 +1,13 @@
+.container {
+  --max-width: 360px;
+  width: min(var(--max-width), 100% - var(--px-lg) * 2);
+  border: solid;
+  margin: auto;
+}
+
+/* Para telas grandes */
+@media (width >= 80rem) {
+  .container {
+    --max-width: 80rem;
+  }
+}
