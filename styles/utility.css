@@ -18,7 +18,7 @@
   --max-width: 360px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
   /* border: solid; */
-  margin: auto;
+  margin-inline: auto;
 }
 
 .desktop-only {
@@ -28,6 +28,10 @@
 .even-columns {
   display: grid;
   gap: 1rem;
+}
+
+.surface-color {
+  background-color: var(--surface-color);
 }
 
 /* Para telas grandes */

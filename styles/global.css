@@ -45,6 +45,10 @@
   --pd-25px: 1.59rem;
 }
 
+/* img {
+  width: 100%;
+} */
+
 html {
   font-family: var(--font-family);
 }
