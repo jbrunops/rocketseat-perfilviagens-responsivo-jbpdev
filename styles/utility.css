@@ -1,3 +1,19 @@
+.pd-32px {
+  padding-block: var(--pd-32px);
+}
+
+.pd-24px {
+  padding-block: var(--pd-24px);
+}
+
+.pd-25px {
+  padding-block: var(--pd-25px);
+}
+
+.px-lg {
+  padding-inline: var(--px-lg);
+}
+
 .container {
   --max-width: 360px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
@@ -5,9 +21,27 @@
   margin: auto;
 }
 
+.desktop-only {
+  display: none;
+}
+
+.even-columns {
+  display: grid;
+  gap: 1rem;
+}
+
 /* Para telas grandes */
 @media (width >= 80rem) {
   .container {
     --max-width: 80rem;
+  }
+
+  .desktop-only {
+    display: initial;
+  }
+
+  .even-columns {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
   }
 }

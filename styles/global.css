@@ -36,6 +36,11 @@
 
   /* Padding Mobile*/
   --px-lg: 2rem;
+
+  /* Padding Web */
+  --pd-32px: 2rem;
+  --pd-24px: 1.5rem;
+  --pd-25px: 1.59rem;
 }
 
 html {
